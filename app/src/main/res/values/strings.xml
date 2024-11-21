@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ProyectoPC</string>
+    <string-array name="roles">
+        <item>Propietario</item>
+        <item>Veterinario</item>
+        <item>Cuidador</item>
+    </string-array>
+</resources>

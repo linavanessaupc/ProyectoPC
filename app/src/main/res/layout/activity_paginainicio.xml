@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Modelo.PaginaInicio">
+
+    <Button
+        android:id="@+id/btnRegistrarMascota"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Registrar Mascota"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/btnConsultarMascotas"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/btnConsultarMascotas"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Consultar Mascotas"
+        app:layout_constraintTop_toBottomOf="@id/btnRegistrarMascota"
+        app:layout_constraintBottom_toTopOf="@id/btnVerPerfil"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/btnVerPerfil"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Ver Perfil"
+        app:layout_constraintTop_toBottomOf="@id/btnConsultarMascotas"
+        app:layout_constraintBottom_toTopOf="@id/btnAjustes"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/btnAjustes"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Ajustes"
+        app:layout_constraintTop_toBottomOf="@id/btnVerPerfil"
+        app:layout_constraintBottom_toTopOf="@id/btnBuscarVeterinario"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/btnBuscarVeterinario"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Buscar Veterinario"
+        app:layout_constraintTop_toBottomOf="@id/btnAjustes"
+        app:layout_constraintBottom_toTopOf="@id/btnAgendaCitas"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/btnAgendaCitas"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Agenda de Citas"
+        app:layout_constraintTop_toBottomOf="@id/btnBuscarVeterinario"
+        app:layout_constraintBottom_toTopOf="@id/btnRecetasComida"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/btnRecetasComida"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Recetas de Comida"
+        app:layout_constraintTop_toBottomOf="@id/btnAgendaCitas"
+        app:layout_constraintBottom_toTopOf="@id/btnForoComunidad"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/btnForoComunidad"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Foro o Comunidad"
+        app:layout_constraintTop_toBottomOf="@id/btnRecetasComida"
+        app:layout_constraintBottom_toTopOf="@id/btnRecordatorios"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/btnRecordatorios"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Recordatorios"
+        app:layout_constraintTop_toBottomOf="@id/btnForoComunidad"
+        app:layout_constraintBottom_toTopOf="@id/btnCerrarSesion"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/btnCerrarSesion"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Cerrar Sesión"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#FF0000"
+        app:layout_constraintTop_toBottomOf="@id/btnRecordatorios"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+

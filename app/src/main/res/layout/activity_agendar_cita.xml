@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edtNombreMascota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre de la mascota"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/edtFechaCita"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Fecha de la cita"
+        android:inputType="date" />
+
+    <EditText
+        android:id="@+id/edtHoraCita"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Hora de la cita"
+        android:inputType="time" />
+
+    <EditText
+        android:id="@+id/edtMotivoCita"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Motivo de la cita"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/btnAgendarCita"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Agendar cita" />
+</LinearLayout>
+
+

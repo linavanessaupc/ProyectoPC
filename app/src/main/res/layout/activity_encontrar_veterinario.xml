@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¡Encuentra tu veterinario más cercano!"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp" />
+
+    <!-- Botón para mostrar la ubicación de un veterinario en Chapinero -->
+    <Button
+        android:id="@+id/button_show_location_chapinero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Veterinaria Chapinero"
+        android:layout_below="@id/title"
+        android:layout_marginBottom="10dp"
+        android:onClick="onShowLocationChapinero" />
+
+    <!-- Botón para mostrar la ubicación de un veterinario en Usaquén -->
+    <Button
+        android:id="@+id/button_show_location_usaquen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Veterinaria Usaquén"
+        android:layout_below="@id/button_show_location_chapinero"
+        android:layout_marginBottom="10dp"
+        android:onClick="onShowLocationUsaquen" />
+
+    <!-- Botón para mostrar la ubicación de un veterinario en Suba -->
+    <Button
+        android:id="@+id/button_show_location_suba"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Veterinaria Suba"
+        android:layout_below="@id/button_show_location_usaquen"
+        android:layout_marginBottom="10dp"
+        android:onClick="onShowLocationSuba" />
+
+    <!-- Botón para mostrar la ubicación de un veterinario en Teusaquillo -->
+    <Button
+        android:id="@+id/button_show_location_teusaquillo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Veterinaria Teusaquillo"
+        android:layout_below="@id/button_show_location_suba"
+        android:layout_marginBottom="10dp"
+        android:onClick="onShowLocationTeusaquillo" />
+
+    <!-- Botón para mostrar la ubicación de un veterinario fuera del continente en Nueva York -->
+    <Button
+        android:id="@+id/button_show_location_ny"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Veterinaria Nueva York"
+        android:layout_below="@id/button_show_location_teusaquillo"
+        android:layout_marginBottom="10dp"
+        android:onClick="onShowLocationNY" />
+</RelativeLayout>

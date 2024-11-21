@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "44258879348",
+    "project_id": "proyectopc-82e38",
+    "storage_bucket": "proyectopc-82e38.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:44258879348:android:998e03d67e690217406e21",
+        "android_client_info": {
+          "package_name": "co.edu.unipiloto.loginRegisterPetConnect"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5kmZOV7lDnUR1feCB-f51wrTe9htaYkU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
